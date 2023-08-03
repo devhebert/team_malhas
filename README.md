@@ -37,7 +37,7 @@ Para a inicialização do projeto, é necessário que você tenha o PHP instalad
 3. No início do arquivo `config.php`, você encontrará as variáveis `$servername`, `$username`, `$password` e `$dbname`. Substitua o valor de `$username` e `$password` pelo usuário e senha que você configurou em seu banco de dados PostgreSQL.
 4. Após configurar o `config.php`, vá no terminal de sua IDE e execute o comando: `php -S localhost:8080`.
 5. Clique no link gerado após a execução do comando acima.
-6. Será executado um build que criará o banco de dados e suas respectivas tabelas.
+6. Será executado um build que criará o banco de dados e suas respectivas tabelas automagicamente através do arquivo `config.php`.
 7. Pronto! Agora você já pode brincar com esse programa.
 
 Observação: Certifique-se de que o banco de dados PostgreSQL esteja em execução antes de executar o projeto.
