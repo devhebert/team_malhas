@@ -1,6 +1,6 @@
 # Mercado Têxtil - Team Malhas (V1)
 
-Este projeto consiste em um desafio para testar as habilidades em PHP. O objetivo é desenvolver um sistema que utilize PHP 7.4 ou uma versão superior, em conjunto com PostgreSQL ou MSSQL Server como banco de dados.
+Este projeto consiste em um desafio no qual o objetivo é desenvolver um sistema que utilize PHP 7.4 ou uma versão superior, em conjunto com PostgreSQL ou MSSQL Server como banco de dados.
 
 ## Requisitos do Projeto
 
@@ -40,5 +40,11 @@ Para a inicialização do projeto, é necessário que você tenha o PHP instalad
 6. Será executado um build que criará o banco de dados e suas respectivas tabelas automagicamente através do arquivo `config.php`.
 7. Pronto! Agora você já pode brincar com esse programa.
 
-Observação: Certifique-se de que o banco de dados PostgreSQL esteja em execução antes de executar o projeto.
+Observação: Certifique-se de que o banco de dados PostgreSQL esteja em execução antes de iniciar o projeto.
 
+<details>
+<summary>Exibir:</summary>
+
+https://github.com/devhebert/team_malhas/assets/101371363/1d22b3eb-7862-4c45-91e7-e16edf3bc44a
+
+</details>
