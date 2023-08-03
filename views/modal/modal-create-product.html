@@ -1,0 +1,74 @@
+<div class="modal fade" id="add-new-product-modal" tabindex="-1" role="dialog" aria-labelledby="addProductModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title custom-font" id="addProductModalLabel">Adicionar Produto</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <div class="form-group">
+                    <div class="form-group">
+                        <label for="product-select">Produto *</label>
+                        <select class="form-control" name="produto" id="product-select" required>
+                            <option value="" disabled selected>Selecione um produto</option>
+                            <option value="<?= \Enum\ProductEnum::PANTS ?>">Calça</option>
+                            <option value="<?= \Enum\ProductEnum::BLOUSE ?>">Blusa</option>
+                            <option value="<?= \Enum\ProductEnum::SHIRT ?>">Camisa</option>
+                            <option value="<?= \Enum\ProductEnum::DRESS ?>">Vestido</option>
+                            <option value="<?= \Enum\ProductEnum::SHORTS ?>">Shorts</option>
+                            <option value="<?= \Enum\ProductEnum::JACKET ?>">Jaqueta</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group mt-2">
+                        <label for="type-product-select">Tipo do produto *</label>
+                        <select class="form-control" name="type-product" id="type-product-select" required>
+                            <option value="" disabled selected>Selecione um tipo de produto</option>
+                            <option value="<?= \Enum\TypeProductEnum::JEANS ?>">Jeans</option>
+                            <option value="<?= \Enum\TypeProductEnum::SWEATSHIRT ?>">Moletom</option>
+                            <option value="<?= \Enum\TypeProductEnum::TACTEL ?>">Tactel</option>
+                            <option value="<?= \Enum\TypeProductEnum::WOOL ?>">Lã</option>
+                            <option value="<?= \Enum\TypeProductEnum::COTTON ?>">Algodão</option>
+                            <option value="<?= \Enum\TypeProductEnum::LEGGING ?>">Legging</option>
+                            <option value="<?= \Enum\TypeProductEnum::SOCIAL ?>">Social</option>
+                            <option value="<?= \Enum\TypeProductEnum::REGATTA ?>">Regata</option>
+                            <option value="<?= \Enum\TypeProductEnum::LEATHER ?>">Couro</option>
+                            <option value="<?= \Enum\TypeProductEnum::LONG ?>">Longo</option>
+                            <option value="<?= \Enum\TypeProductEnum::SHORT ?>">Curto</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group mt-2">
+                        <label>Nome do Produto *</label>
+                        <input type="text" class="form-control" id="product-name" name="productName"
+                               placeholder="Ex: Moletom Black Skull" required>
+                    </div>
+
+                    <div class="form-group mt-2">
+                        <label>Descrição</label>
+                        <textarea class="form-control" id="product-description" name="productDescription" rows="3"
+                                  placeholder="Ex: Macio, leve e confortável. Qualidade incrível - Overlock Reforçado, Reforço de ombro, Costura Dupla."></textarea>
+                    </div>
+
+                    <div class="form-group mt-2">
+                        <label>Valor *</label>
+                        <input type="text" class="form-control" id="product-price" name="productPrice"
+                               placeholder="Ex: R$ 100,00" required>
+                    </div>
+
+                    <div class="form-group mt-2">
+                        <label>Taxa</label>
+                        <input type="text" class="form-control" id="product-tax" name="productTax"
+                               placeholder="Ex: 10,00%">
+                    </div>
+                </div>
+
+                <div class="modal-footer custom-font">
+                    <button type="button" id="create-new-product" class="btn btn-primary btn-tm">Salvar Produto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

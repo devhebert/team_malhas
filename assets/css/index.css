@@ -1,0 +1,172 @@
+/** INICIO ESTILO BOTÕES DE LINKS*/
+.nav-link {
+    color: black !important;
+}
+/** FIM ESTILO BOTÕES DE LINKS*/
+
+/** INICIO ESTILO BOTÃO*/
+.btn-tm {
+    background-color: #570101 !important;
+}
+/** FIM ESTILO BOTÃO*/
+
+
+/** INICIO ESTILO TEXTO VENDAS*/
+.totalizadores {
+    color: black;
+}
+/** FIM ESTILO TEXTO VENDAS*/
+
+
+/** INICIO ESTILO PAGINAÇÃO*/
+.dynamic-pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    margin-top: 22px;
+}
+
+.dynamic-btn-page {
+    border: none;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/** FIM ESTILO PAGINAÇÃO*/
+
+
+/** INICIO ESTILO FOOTER */
+.corner-image-footer {
+    width: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+}
+
+.footer-img {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-img::before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 0;
+    vertical-align: middle;
+}
+
+.footer-img img,
+.footer-img span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+body {
+    padding-bottom: 50px;
+}
+/** FIM ESTILO FOOTER */
+
+
+/** INICIO ESTILO PARA O SIDEBAR */
+.nav {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav-item-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 8px;
+    margin-left: 20px;
+    background-color: #570101;
+}
+
+.nav-item-icon img {
+    width: 100%;
+    height: auto;
+    filter: invert(100%);
+}
+
+.nav-link {
+    padding: 5px;
+}
+/** FIM ESTILO PARA O SIDEBAR */
+
+
+/** INICIO ESTILO PARA O HEADER */
+header {
+    background-color: #570101;
+    padding: 20px;
+}
+
+.corner-image-header {
+    width: 90px;
+    margin-left: 10px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.header-text {
+    text-align: left;
+    color: aliceblue;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+p {
+    color: aliceblue;
+    font-size: 16px;
+}
+
+.custom-font {
+    font-family: 'Lobster', cursive;
+}
+/** FIM ESTILO PARA O HEADER */
+
+
+/** INICIO ESTILO PARA O APEXCHART */
+#chart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+/** FIM ESTILO PARA O APEXCHART */
